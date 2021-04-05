@@ -29,5 +29,4 @@ while True:
 print(f'you roll a Dice for {count} times')
 print('The Final Position Of Dice is: \n')
 t.dice(t.res)
-print('Thankyou!!!')
         
