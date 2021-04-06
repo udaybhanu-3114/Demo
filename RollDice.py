@@ -19,25 +19,16 @@ def dice_down(down):
     dice(down)
     print(down[1],down[3],down[2],down[4])
     print('down')
-    
-
- 
 
 def dice_up(up):
     up[1],up[2],up[4],up[3]=up[2],up[4],up[3],up[1]
     dice(up)
     print('up')
 
- 
-
-
 def dice_left(left):
     left[0],left[1],left[5],left[4]=left[1],left[5],left[4],left[0]
     dice(left)
     print('left')
-
- 
-
 
 def dice_right(right):
     right[4],right[5],right[1],right[0]=right[5],right[1],right[0],right[4]
